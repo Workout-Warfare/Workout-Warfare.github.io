@@ -1530,6 +1530,51 @@ a {
 .cid-u39HkXf2nw .mbr-section-btn {
   text-align: center;
 }
+.cid-u4mI0e4Kv9 {
+  display: flex;
+  background-image: url("../../../assets/images/mbr-1920x1272.jpeg");
+}
+.cid-u4mI0e4Kv9 .mbr-overlay {
+  background-color: #000000;
+  opacity: 0.3;
+}
+@media (min-width: 768px) {
+  .cid-u4mI0e4Kv9 {
+    align-items: flex-end;
+  }
+  .cid-u4mI0e4Kv9 .row {
+    justify-content: center;
+  }
+  .cid-u4mI0e4Kv9 .content-wrap {
+    padding: 1rem 3rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-u4mI0e4Kv9 .content-wrap {
+    min-width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .cid-u4mI0e4Kv9 {
+    -webkit-align-items: center;
+    align-items: flex-end;
+  }
+  .cid-u4mI0e4Kv9 .mbr-row {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  .cid-u4mI0e4Kv9 .content-wrap {
+    width: 100%;
+  }
+}
+.cid-u4mI0e4Kv9 .mbr-section-title,
+.cid-u4mI0e4Kv9 .mbr-section-subtitle {
+  text-align: center;
+}
+.cid-u4mI0e4Kv9 .mbr-text,
+.cid-u4mI0e4Kv9 .mbr-section-btn {
+  text-align: center;
+}
 .cid-u3btElSTII {
   padding-top: 10rem;
   padding-bottom: 5rem;
@@ -9501,74 +9546,6 @@ a {
   background-color: #232323;
   overflow: hidden;
 }
-.cid-u3ElYwE5VL {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #000000;
-}
-.cid-u3ElYwE5VL .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-u3ElYwE5VL .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-u3ElYwE5VL .mbr-section-subtitle {
-  color: #ffffff;
-}
-.cid-u3ElYwE5VL .mbr-section-title {
-  color: #ffffff;
-}
-.cid-u3EgZW6fBt {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #000000;
-}
-.cid-u3EgZW6fBt .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-u3EgZW6fBt .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-@media (max-width: 767px) {
-  .cid-u3EgZW6fBt .card-content-text {
-    padding: 0 1.5rem 1.5rem 1.5rem;
-  }
-}
-@media (min-width: 768px) {
-  .cid-u3EgZW6fBt .card-content-text {
-    padding: 0 2.25rem 2.25rem 2.25rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-u3EgZW6fBt .card-content-text {
-    padding: 1rem 4rem 4rem 4rem;
-  }
-}
-.cid-u3EgZW6fBt .card-wrapper {
-  background: #232323;
-}
-.cid-u3EgZW6fBt .mbr-text,
-.cid-u3EgZW6fBt .mbr-section-btn {
-  color: #ffffff;
-  text-align: left;
-}
-.cid-u3EgZW6fBt .card-title,
-.cid-u3EgZW6fBt .card-box {
-  text-align: center;
-  color: #ffffff;
-}
 .cid-u39X3wBau3 {
   z-index: 1000;
   width: 100%;
@@ -10127,6 +10104,74 @@ a {
   .cid-u39X3wBau3 .navbar-collapse {
     padding: 1rem;
   }
+}
+.cid-u3ElYwE5VL {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #000000;
+}
+.cid-u3ElYwE5VL .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u3ElYwE5VL .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-u3ElYwE5VL .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-u3ElYwE5VL .mbr-section-title {
+  color: #ffffff;
+}
+.cid-u3EgZW6fBt {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #000000;
+}
+.cid-u3EgZW6fBt .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u3EgZW6fBt .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 767px) {
+  .cid-u3EgZW6fBt .card-content-text {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .cid-u3EgZW6fBt .card-content-text {
+    padding: 0 2.25rem 2.25rem 2.25rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-u3EgZW6fBt .card-content-text {
+    padding: 1rem 4rem 4rem 4rem;
+  }
+}
+.cid-u3EgZW6fBt .card-wrapper {
+  background: #232323;
+}
+.cid-u3EgZW6fBt .mbr-text,
+.cid-u3EgZW6fBt .mbr-section-btn {
+  color: #ffffff;
+  text-align: left;
+}
+.cid-u3EgZW6fBt .card-title,
+.cid-u3EgZW6fBt .card-box {
+  text-align: center;
+  color: #ffffff;
 }
 .cid-u3aWrx87h9 {
   padding-top: 6rem;
